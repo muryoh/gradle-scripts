@@ -1,6 +1,7 @@
 apply from: "${ext.ullinkGradleScripts}/gradle-plugin-base.gradle"
 
 group = 'com.ullink.gradle'
+sourceCompatibility = 1.6
 
 project.ext.pom = { p ->
     p.project {
